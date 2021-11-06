@@ -1,0 +1,24 @@
+@import '../node_modules/@fontsource/jost/400.css';
+@import '../node_modules/@fontsource/jost/500.css';
+@import '../node_modules/@fontsource/jost/variable.css';
+@import '../node_modules/@fontsource/jost/variable-italic.css';
+
+body, input {
+  font-family: Jost, sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6, b, strong {
+  font-weight: 600;
+}
+
+@supports (font-variation-settings: normal) {
+  body, input {
+    font-family: JostVariable, sans-serif;
+    font-variation-settings: 'wght' 400;
+  }
+
+  h1, h2, h3, h4, h5, h6, b, strong {
+    font-variation-settings: 'wght' 600;
+  }
+}

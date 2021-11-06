@@ -1,0 +1,49 @@
+@import "_font.css";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2rem;
+  color: #efefef;
+
+  width: 100vw;
+  padding-top: 30vh;
+  background-color: #202032;
+}
+
+.services {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  column-gap: 2rem;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 0.5rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border: 0.2rem solid transparent;
+  padding: 1rem 1.5rem;
+  color: #efefef;
+  transition: background-color 200ms ease-in-out, border-color 200ms ease-in-out;
+  border-radius: 1rem;
+}
+
+.service:hover {
+  background-color: rgba(0, 0, 0, 0.25);
+  border-color: #0b0b15;
+}
+
+.service-image {
+  width: 4rem;
+  height: 4rem;
+}

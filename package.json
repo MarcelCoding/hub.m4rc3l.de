@@ -1,0 +1,16 @@
+{
+  "name": "hub.m4rc3l.de",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "4.4.4",
+    "vite": "2.6.13"
+  },
+  "dependencies": {
+    "@fontsource/jost": "^4.5.0"
+  }
+}
